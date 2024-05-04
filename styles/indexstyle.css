@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Kalnia:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/body.jpg) no-repeat;
+    background-size: cover;
+   height: 100vh;
+   color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shop-now{
+    margin-top: 15px;
+    text-align: right;
+}
+.shop-now a{
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-family: 'Kalnia', serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px;
+    transition: .5s;
+}
+.shop-now a:hover{
+    color: green;
+    background-color: black;
+}
+/* .brand{
+    border: 3px solid white;
+    margin: 10px;
+} */
+.header-area{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 0px 10px;
+    font-size: medium;
+}
+.header-area i{
+    padding: 0px 8px;
+   
+
+}
+.header-area a{
+    color:white;
+    transition: .5s;
+    
+}
+.header-area a:hover{
+    color: #2ec505;
+}
+.head-align{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    /* display: inline-block;  */
+    margin: 0px auto;
+    text-align: center;
+}
+.logo img{
+border-radius: 50%;
+zoom: 50%;
+}
+.brand-name{
+    font-family: 'Kalnia', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.brand-name div{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.nav ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* height: 50px; */
+    /* background-color: rgba(255, 255, 255, .5); */
+    height: 50px;
+    list-style: none;
+    font-family: 'Kalnia', serif;
+    margin-top: 15px;
+   
+}
+
+.nav-list a{
+    text-decoration: none;
+    padding:15px ;
+    color: white;
+    transition: .5s;
+ }
+ .nav-list a:hover{
+     background-color: white;
+     color: #2ec505;
+     border-radius: 3px;
+  }

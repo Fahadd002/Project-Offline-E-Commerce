@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/jquery.validate.js"></script>
+    <script src="page_script/registration.js"> </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+        <div class="brand-name">
+          Diamond Haven
+          <div>Beyond Beauty, Into Eternity</div>
+        </div>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Our products</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+          <li>
+            <a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i>
+              <span id="count">0</span> items</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+    <div class="log-reg">
+        
+            <h3>Registration</h3>
+            <form id="frm-register">
+                <div class="c1">
+                    <input placeholder="username..." id="rusername" class="input" required />
+                </div>
+                <div class="c1">
+                    <input type="password" placeholder="password..." id="rpassword" class="input" required />
+                </div>
+                <div>
+                    <button class="btn-primary" type="button" id="register-btn">Sign Up</button>
+                </div>
+            </form>
+            <h3 style="margin-top: 10px;"> Go back to <span ><a href="login.html" class="signup">Login</a></span> page</h3>
+
+    </div>
+    </main>
+  </body>
+</html>
