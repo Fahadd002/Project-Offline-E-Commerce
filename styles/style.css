@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background: url(../images/body.jpg) no-repeat;
+     background-color: black;
+/*     background: url(../images/body.jpg) no-repeat; */
     background-size: cover;
    height: 100vh;
    color: white;
